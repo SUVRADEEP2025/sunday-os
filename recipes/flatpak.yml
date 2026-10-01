@@ -1,0 +1,12 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: default-flatpaks
+configurations:
+  - scope: system
+    notify: true
+    repository:
+      name: flathub
+      url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      install:
+        - com.bitwarden.desktop
+        - io.github.sitraorg.sitra

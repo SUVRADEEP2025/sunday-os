@@ -3,3 +3,8 @@ cosign.private
 /Containerfile
 *.iso
 *.iso-CHECKSUM
+
+
+# Added by cargo
+
+/target
