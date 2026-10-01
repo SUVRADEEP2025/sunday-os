@@ -2,3 +2,4 @@
 aube = "latest"
 node = "24"
 "npm:freebuff" = "latest"
+opencode = "latest"
