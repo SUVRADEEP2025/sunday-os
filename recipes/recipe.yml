@@ -8,11 +8,10 @@ image-version: 44
 modules:
   - from-file: rpmostree.yml
   - from-file: dnf.yml
-  - from-file: script.yml
-  - from-file: files.yml
+  # - from-file: script.yml
+  # - from-file: files.yml
   - from-file: font.yml
   - from-file: flatpak.yml
-  # - from-file: systemd.yml
   - from-file: os-release.yml
 
   - type: signing

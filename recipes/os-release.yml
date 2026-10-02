@@ -2,8 +2,9 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: os-release
 properties:
-  NAME: "Sunday OS"
-  PRETTY_NAME: "Sunday OS"
-  ID: sundayos
-  ID_LIKE: fedora
-  VARIANT_ID: sundayos
+  VARIANT_ID: sunday
+  NAME: Sunday OS
+  PRETTY_NAME: Sunday OS
+  DEFAULT_HOSTNAME: sundayos
+  HOME_URL: https://github.com/suvradeep2025/sunday-os
+  SUPPORT_URL: https://github.com/suvradeep2025/sunday-os/issues
