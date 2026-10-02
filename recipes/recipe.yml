@@ -3,7 +3,7 @@
 name: sundayos
 description: My sunday os
 base-image: quay.io/fedora-ostree-desktops/kinoite
-image-version: 45
+image-version: 44
 
 modules:
   - from-file: rpmostree.yml
@@ -12,7 +12,7 @@ modules:
   - from-file: files.yml
   - from-file: font.yml
   - from-file: flatpak.yml
-  - from-file: systemd.yml
+  # - from-file: systemd.yml
   - from-file: os-release.yml
 
   - type: signing
